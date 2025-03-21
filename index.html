@@ -3,15 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Custom Theme Switcher</title>
+  <title>Theme Switcher - Customize Your Experience</title>
+  <link rel="icon" href="./favicon/favicon-32x32.png" type="image/x-icon" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Custom Theme Switcher</h1>
+            <p>Switch between light and dark mode, or customize your own color theme.</p>
+        </header>
+        <main>
+            <section class="theme-controls">
+                <button id="theme-toggle">Switch Theme</button>
+                <label for="color-picker">Pick a Theme Color:</label>
+                <input type="color" id="color-picker" />
+            </section>
+      
+            <section class="profile-cards">
+                <div class="card">
+                    <h2>Anjan Sen</h2>
+                    <p>Frontend & UI/UX Developer</p>
+                    <p>Passionate about building user-centric applications with elegant interfaces.</p>
+                </div>
+                <div class="card">
+                    <h2>Jane Doe</h2>
+                    <p>Product Designer</p>
+                    <p>Crafting intuitive experiences and seamless interactions.</p>
+                </div>
+                <div class="card">
+                    <h2>John Smith</h2>
+                    <p>Software Engineer</p>
+                    <p>Creating scalable and performant web applications.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <p>Made with ❤️ by Anjan Sen</p>
+            </div>
+        </footer>
+    </div>
+
+  <script src="js/script.js"></script>
+</body>
+<!-- <body>
   <header>
     <h1>Custom Theme Switcher</h1>
     <button id="theme-toggle">Switch Theme</button>
     <input type="color" id="color-picker" title="Pick a Theme Color" />
   </header>
   <script src="js/script.js"></script>
-</body>
+</body> -->
 </html>
