@@ -10,7 +10,7 @@ A simple theme switcher with light/dark mode and customizable color palettes, st
 ## Installation
 1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/custom-theme-switcher.git
+git clone https://github.com/anjan-in/custom-theme-switcher.git
 ```
 2. Navigate to the project folder:
 ```bash
